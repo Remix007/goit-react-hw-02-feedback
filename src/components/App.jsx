@@ -33,6 +33,19 @@ class App extends React.Component {
     this.setState(prevState => ({
       [name]: prevState[name] + 1,
     }));
+    // if (event.target.name === 'good') {
+    //   this.setState(prevState => ({
+    //     valueGood: prevState.valueGood + 1,
+    //   }));
+    // } else if (event.target.name === 'bad') {
+    //   this.setState(prevState => ({
+    //     valueBad: prevState.valueBad + 1,
+    //   }));
+    // } else if (event.target.name === 'neutral') {
+    //   this.setState(prevState => ({
+    //     valueNeutral: prevState.valueNeutral + 1,
+    //   }));
+    // }
   };
 
   render() {
