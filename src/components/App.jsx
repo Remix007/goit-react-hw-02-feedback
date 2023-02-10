@@ -17,6 +17,11 @@ class App extends React.Component {
       (good / (good + bad + neutral)) * 100
     );
     return PositivePercentage;
+    // this.setState(prevState => ({
+    //   valuePositivePercentage: Math.round(
+    //     (prevState.good / prevState.valueTotal) * 100
+    //   ),
+    // }));
   };
 
   countTotalFeedback = () => {
@@ -29,6 +34,7 @@ class App extends React.Component {
   };
 
   increment = event => {
+    // console.log(event.target.name);
     const { name } = event.target;
     this.setState(prevState => ({
       [name]: prevState[name] + 1,
