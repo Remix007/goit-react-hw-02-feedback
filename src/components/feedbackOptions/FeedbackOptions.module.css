@@ -1,0 +1,27 @@
+.good,
+.bad,
+.neutral {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: gray;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.good:hover,
+.good:focus {
+  background-color: green;
+}
+.neutral:hover,
+.neutral:focus {
+  background-color: blue;
+}
+.bad:hover,
+.bad:focus {
+  background-color: red;
+}

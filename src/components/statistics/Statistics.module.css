@@ -1,0 +1,26 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+}
+.goodText,
+.neutralText,
+.badText,
+.totalText,
+.postisvPercentageText {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0;
+
+  margin-bottom: 5px;
+}
+.goodText {
+  color: green;
+}
+.neutralText {
+  color: blue;
+}
+.badText {
+  color: red;
+}
