@@ -21,28 +21,7 @@ const FeedbackOptions = ({ setFeedback, options }) => {
       {item}
     </button>
   ));
-  return (
-    <div className={s.controls}>
-      {buttons}
-
-      {/* <button
-        type="button"
-        name="neutral"
-        className={s.buttonNeutral}
-        onClick={setFeedback}
-      >
-        Neutral
-      </button>
-      <button
-        type="button"
-        name="bad"
-        className={s.buttonBad}
-        onClick={setFeedback}
-      >
-        Bad
-      </button> */}
-    </div>
-  );
+  return <div className={s.controls}>{buttons}</div>;
 };
 
 export default FeedbackOptions;
